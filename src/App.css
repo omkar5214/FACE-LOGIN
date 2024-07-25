@@ -1,0 +1,247 @@
+/* App.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&family=Outfit:wght@100..900&display=swap') */
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../FACE\ RECOGNITION\ SYSTEM\ \(1\).png'); /* Replace 'background.jpg' with your image file name */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: #97A9C4;
+  opacity: 9;
+  width: 600px;
+  /* max-width: 600px; */
+  margin: 5% 38%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 20px rgb(0, 153, 255); 
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 60vh; 
+
+}
+
+h2 {
+  font-size: 38px; 
+  margin-top: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #ffffff;
+  background-color: rgb(25, 39, 51);
+  /* opacity: .5; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 38, 255, 0.734); 
+
+}
+
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: rgb(197, 51, 51);
+}
+
+h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: yellow;
+  font-style:  italic;
+  font:700;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green when hovered */
+}
+
+button.cancel {
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text color */
+}
+
+button.cancel:hover {
+  background-color: #cc0000; /* Darker red when hovered */
+}
+
+button.camera {
+  background-color: #fffb00b9; /* Red background */
+  color: red; /* White text color */
+  /* font-size: medium; */
+  font: 700;
+}
+
+button.camera:hover {
+  background-color: #45a049;
+  color: #fffb00b9; /* Darker red when hovered */
+}
+
+button.camimg {
+  background-color: #151715; /* Red background */
+  color: red; /* White text color */
+  /* font-size: medium; */
+  font: 700;
+}
+
+button.camimg:hover {
+  background-color: #00d9ffb9;
+  color: darkgreen; /* Darker red when hovered */
+}
+
+
+/* CSS */
+button.addst {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px #fff, 15px 15px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+button.addst:hover {
+  background: #8282d8;
+  color: white;
+  box-shadow: 0px 0px 10px #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  button.addst {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  button.camera {
+    padding: 14px;
+  }
+}
+@media (min-width: 768px) {
+  button.camimg {
+    padding: 14px;
+  }
+}
+        
+
+/* Parent background */
+#F5F5FA
+
+
+.success {
+  color: green;
+}
+
+.failure {
+  color: red;
+}
+
+#camera {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Styles for student details form */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Styles for file upload message */
+.upload-message {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+/* App.css */
+
+/* Style for the input file button */
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.custom-file-input, .activate {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-file-input:hover, .activate:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+
+h5{
+  font-size: 18px;
+  font-style: italic;
+  color: #031c37;
+}
+
+#auth{
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+}
+
+#pass{
+  font-size: 18px;
+  font-style: italic;
+  color: green;
+}
+
+#fail{
+  font-size: 18px;
+  font-style: italic;
+  color: red;
+}
